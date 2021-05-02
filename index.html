@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+  <title>Connect 4</title>
+  <link href="connect4.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body class="centercss">
+<h1>Simple Connect Four Game</h1>
+
+<p>Connect Four is played on a grid, 7 wide by 6 deep, with two players, 
+  first player in green, and the second play in orange. 
+  <br><br>
+  The players alternate turns, dropping a piece of   their color in the top of a column. 
+  The piece will fall down to the further-down unoccupied slot.
+  <br><br>
+  Rules for winner: 
+  <br>
+  Winner makes four in a row, it can be horizontally, vertically, or diagonally. 
+  The game is a tie if the entire board fills up without a winner.</p>
+
+<div id="game">
+  <table id="board"></table>
+</div>
+
+<script src="connect4.js"></script>
+
+</body>
+</html>
